@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import io
 
 # Load the cleaned project data
-df = pd.read_excel("Project List.xlsx", skiprows=2)
+df = pd.read_excel("Project_List.xlsx", skiprows=2)
 df.columns = ["Code", "Location", "Intervention", "Sector", "Proposer",
               "Cost <4M", "Cost <2M", "Cost <1M", "Cost <0.5M",
               "In Scope", "Rationale", "Comment"]
